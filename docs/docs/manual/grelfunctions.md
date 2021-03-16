@@ -532,6 +532,9 @@ This would match your current column to the “Name” column in “People” an
 
 You may need to do some data preparation with cross(), such as using trim() on your key columns or deduplicating values.
 
-The first argument will be interpreted as `cell.value` if set to `cell`. If you omit projectName and columnName, they will default to the current project and index column (number 0). 
+The first argument will be interpreted as `cell.value` if set to `cell`. 
+
+_This feature is going to be added from OpenRefine 3.5 onwards only_
+If you omit projectName and columnName, they will default to the current project and index column (number 0). 
 
 Recipes and more examples for using cross() can be found [on our wiki](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#combining-datasets).
